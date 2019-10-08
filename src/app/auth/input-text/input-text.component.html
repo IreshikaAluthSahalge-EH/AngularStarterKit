@@ -1,13 +1,4 @@
-<div class="form-label-group">
-  <input
-    class="form-control"
-    [type]="type"
-    #input
-    (input)="onChange($event.target.value)"
-    (blur)="onTouched()"
-    [disabled]="disabled"
-    [placeholder]="placeholder"
-  />
+<div class="form-group">
   <div class="d-flex">
     <span
       class="v"
@@ -33,4 +24,13 @@
       >{{ errorMsg }}</span
     >
   </div>
+  <input
+    class="form-control"
+    [type]="type"
+    #input
+    (input)="onChange($event.target.value)"
+    (blur)="onTouched()"
+    [disabled]="disabled"
+    [placeholder]="placeholder"
+  />
 </div>
