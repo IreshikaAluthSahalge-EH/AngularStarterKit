@@ -8,13 +8,11 @@ import {
 } from "@angular/core";
 import {
   ControlValueAccessor,
-  NG_VALUE_ACCESSOR,
   Validator,
   AbstractControl,
   ValidationErrors,
   ValidatorFn,
   Validators,
-  NG_VALIDATORS,
   NgControl
 } from "@angular/forms";
 
